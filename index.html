@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+
+
+        
+                <h2 id="#title">Sign In</h2>
+          
+
+            <div class="data">
+
+                
+                <input class="input1" type="text" placeholder="Email or Phone Number" onfocus="this.style.backgroundColor='yellow'"
+                onblur="this.style.backgroundColor='#343434'">
+                
+                
+                <input id="pass" class="input1" type="password" placeholder="Password">
+                
+                <div class="item3"><button type="submit" id="btn" value="Sign in">Sign In</button></div>
+                <div class="item4">
+                    <input type="checkbox">
+                    
+                    <span>Remember Me</span>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    // event handinling
+
+    // events and event handlers
+//    let pass= document.getElementById("pass");
+//    pass.onfocus=function(){
+//     pass.style.backgroundColor='yellow';
+//    }
+   //blureEvent
+//    pass.onblur=function(){
+//     pass.style.backgroundColor='#343434';
+//    }
+
+   let h2=document.getElementById('#title');
+   h2.onmouseover=function(){
+    h2.style.color='red';
+   }
+   h2.onmouseout=function(){
+    h2.style.color='white';
+   }
+
+
+//    addEventListner() method
+function displayAlert(){
+    alert('You Clickd On Submit Button');
+}
+
+const  ans=document.getElementById('btn')
+ans.addEventListener("click", displayAlert)
+// ans.addEventListener('click', displayAlert)
+// ans.addEventListener("click", displayAlert)
+// jo ahi callback function lakhvu jo functuin name ni pachar () bracket karya to te pela call thai jashe but apre to click thay tyrej call karvu che
+// callback function ni jagye apre anonumus function lakhi jaskiye chei
+// using anonumus funtion
+// document.getElementsByTagName('button')
+// .addEventListner('click',function(){
+//     alert('You Clickd On Submit Button');
+
+// })
+
+
+
+// document.getElementById('pass')
+// .addEventListener('focus',function(){
+//     document.getElementById('pass').style.background='red';
+    
+// })
+document.querySelector('#pass')
+.addEventListener('focus',function(){
+   this.style.background='red';
+    
+})
+document.querySelector('#pass')
+.addEventListener('blur',function(){
+   this.style.background='white';
+    
+})
+
+
+</script>
+
+</html>
