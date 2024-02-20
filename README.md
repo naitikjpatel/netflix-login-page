@@ -43,3 +43,7 @@ Welcome to the Netflix Login Page Clone project! 🚀 In this endeavor, you've r
     - Shared your accomplishment with the coding community and on social media platforms.
 
 Feel proud of your achievement and keep coding! 🚧💻✨
+
+**Image of Login Page**
+![Uploading image.png…]()
+
