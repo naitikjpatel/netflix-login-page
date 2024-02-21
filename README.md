@@ -45,5 +45,6 @@ Welcome to the Netflix Login Page Clone project! 🚀 In this endeavor, you've r
 Feel proud of your achievement and keep coding! 🚧💻✨
 
 **Image of Login Page**
-![Uploading image.png…]()
+<img width="956" alt="Screenshot 2024-02-21 000825" src="https://github.com/naitikjpatel/netflix-login-page/assets/120157810/061a317c-9741-4838-bce0-eab843bf87a9">
+
 
